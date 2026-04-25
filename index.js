@@ -11,7 +11,6 @@ const app = express();
 const allowedOrigins = [
   "http://localhost:3000",
   "https://directdashv2.vercel.app",
-  "https://directdash.netlify.app",
 ];
 
 app.use(
